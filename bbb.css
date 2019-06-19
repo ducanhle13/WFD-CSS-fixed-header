@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: red;
+    width: 100%;
+    padding: 10px 0;
+    overflow: hidden;
+    height: 40px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.main{
+    margin-top: 60px;
+    height: 1500px;
+    width: 70%;
+    float: left;
+    background-color: mediumspringgreen;
+    overflow-y: scroll;
+}
+
